@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=com.redhat.tuned
+SystemdService=tuned.service
+Exec=/usr/sbin/tuned -d
